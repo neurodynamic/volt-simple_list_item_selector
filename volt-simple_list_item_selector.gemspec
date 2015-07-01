@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["developer@neurodynamic.io"]
   spec.summary       = %q{Simple Volt Framework selector widget made of list items.}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/neurodynamic/volt-simple_list_item_selector"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
