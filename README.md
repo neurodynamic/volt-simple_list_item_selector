@@ -30,6 +30,25 @@ With all available options:
 ```
 
 
+Example:
+```
+<:simple_list_item_selector options="{{['apples','oranges','pears']}}" selected_option="{{'apples'}}" selected_class="active" ul_class="fantastic" />
+```
+
+Produces:
+```html
+<ul class="list-item-selector fantastic">
+    <li class="option active">
+      <a href="#">apples</a>
+    </li>
+    <li class="option">
+      <a href="#">oranges</a>
+    </li>
+    <li class="option">
+      <a href="#">pears</a>
+    </li>
+</ul>
+```
 
 ## Contributing
 
