@@ -1,6 +1,6 @@
   <ul class="list-item-selector {{attrs.ul_class}}">
     {{ attrs.options.each do |option| }}
-      <li e-click="select(option)" class="option {{selected_class(option)}}">
+      <li e-click="select(option)" class="option {{attrs.li_class}} {{selected_class(option)}}">
         <a href="#">{{ option }}</a>
       </li>
     {{ end }}
